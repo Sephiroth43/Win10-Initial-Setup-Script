@@ -121,8 +121,8 @@ EnableNavPaneExpand             # DisableNavPaneExpand
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 # HideSyncNotifications         # ShowSyncNotifications
 # HideRecentShortcuts           # ShowRecentShortcuts
-SetExplorerThisPC               # SetExplorerQuickAccess
-HideQuickAccess                 # ShowQuickAccess
+SetExplorerQuickAccess          # SetExplorerThisPC
+ShowQuickAccess                 # HideQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 HideDesktopFromThisPC           # ShowDesktopInThisPC
