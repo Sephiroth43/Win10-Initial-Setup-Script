@@ -32,7 +32,7 @@ DisableWAPPush                  # EnableWAPPush
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
-DisableAdminShares              # EnableAdminShares
+# DisableAdminShares            # EnableAdminShares
 # DisableSMB1                   # EnableSMB1
 # DisableSMBServer              # EnableSMBServer
 # DisableLLMNR                  # EnableLLMNR
@@ -47,9 +47,9 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
-HideAccountProtectionWarn       # ShowAccountProtectionWarn
+# HideAccountProtectionWarn     # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
-# DisableScriptHost               # EnableScriptHost
+# DisableScriptHost             # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
 EnableF8BootMenu                # DisableF8BootMenu
@@ -103,7 +103,7 @@ DisableNewAppPrompt             # EnableNewAppPrompt
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
-# SetVisualFXPerformance          # SetVisualFXAppearance ###this can be enabled for Workstation
+SetVisualFXPerformance          # SetVisualFXAppearance         #enabled for workstation
 # EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
@@ -153,8 +153,8 @@ UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
 DisableXboxFeatures             # EnableXboxFeatures
-DisableAdobeFlash               # EnableAdobeFlash
-DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
+# DisableAdobeFlash             # EnableAdobeFlash
+# DisableEdgeShortcutCreation   # EnableEdgeShortcutCreation
 # UninstallMediaPlayer          # InstallMediaPlayer
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
@@ -165,9 +165,9 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 # SetPhotoViewerAssociation     # UnsetPhotoViewerAssociation
 # AddPhotoViewerOpenWith        # RemovePhotoViewerOpenWith
 # UninstallPDFPrinter           # InstallPDFPrinter
-UninstallXPSPrinter             # InstallXPSPrinter
-RemoveFaxPrinter                # AddFaxPrinter
-UninstallFaxAndScan             # InstallFaxAndScan
+# UninstallXPSPrinter           # InstallXPSPrinter           #enable for home
+# RemoveFaxPrinter              # AddFaxPrinter	              #enable for home
+# UninstallFaxAndScan           # InstallFaxAndScan	          #enable for home
 
 ### Server Specific Tweaks ###
 # HideServerManagerOnLogin      # ShowServerManagerOnLogin
